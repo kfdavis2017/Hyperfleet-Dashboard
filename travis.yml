@@ -1,0 +1,10 @@
+
+language: node_js
+node_js:
+ — “7”
+script:
+ — echo “Deploy!!”
+install:
+ — npm install -g firebase-tools
+after_success:
+ — firebase deploy — project dragons-laie-smd — token 1/jADpmI4mniVIBM7Ozl1AOg47SAk4s51CYbF0r1G9xFs
