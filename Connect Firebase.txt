@@ -1,0 +1,9 @@
+var config = {
+  apiKey: "AIzaSyCSmGjzYJKdKMGsusxXLMLF8m2NfBdob7E",
+  authDomain: "dragons-laie-smd.firebaseapp.com",
+  databaseURL: "https://databaseName.firebaseio.com"
+};
+
+firebase.initializeApp(config);
+
+var rootRef = firebase.database().ref();
